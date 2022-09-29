@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oleo+Script+Swash+Caps&display=swap');
+
+*   /*Universal Selector*/
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.profile
+{
+   height: 100vh;
+   width: 100%;
+   background-color:#0077ff;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   background-image: url("media/bg.jpg");
+   background-size: cover;
+}
+.child1{
+    width: 40%;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.pro{
+    width:100%;
+    height: 100%;
+}
+.image1{
+    height: 250px;
+    width: 250px;
+    background-color: #ff7100;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.fonts_awesome{
+    font-size: 20px;
+    display: flex;
+    column-gap: 8px;
+}
+i{
+    cursor: pointer;
+}
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    background-image: url("media/bg.jpg");
+    background-size: cover;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.project_title{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.work{
+    width: 100%;
+    background-color:rgba(255, 255, 255, .5) ;
+    padding-top: 20px;
+    padding: 20px;
+    display: flex;
+    column-gap: 1.25%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.work1{
+    height: 180px;
+    width: 24%;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.work_details{
+    min-height: 20px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    transition: .3s;
+    cursor: pointer;
+}
+.work_details:hover{
+    height: 50%;
+}
+.work1:nth-child(1){
+background-image: url("media/action.jpg");
+}
+.work1:nth-child(2){
+    background-image: url("media/airport.jpg");
+}
+.work1:nth-child(3){
+    background-image: url("media/Beach.jpg");
+    }
+    .work1:nth-child(4){
+        background-image: url("media/drink.jpg");
+        }
+        .work1:nth-child(5){
+            background-image: url("media/event.jpg");
+            }
+            .work1:nth-child(6){
+                background-image: url("media/Gaming.jpg");
+                }
+                .work1:nth-child(7){
+                    background-image: url("media/hotels.jpg");
+                    }
+                    .work1:nth-child(8){
+                        background-image: url("media/tour.jpg");
+                        }
